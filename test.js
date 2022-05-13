@@ -3,7 +3,7 @@ var Configstore = require('configstore');
 var languages = require('./languages.js');
 var translate = require('./index.js');
 
-const config = new Configstore('google-translate-api');
+const config = new Configstore('google-translate-api-rocket');
 
 test.beforeEach(() => {
     config.clear();
