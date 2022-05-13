@@ -38,7 +38,7 @@ npm install @vitalets/google-translate-api
 From automatic language detection to English:
 
 ```js
-const translate = require('@vitalets/google-translate-api');
+const translate = require('google-translate-api-rocket');
 
 const res = await translate('Ik spreek Engels', {to: 'en'});
 
@@ -123,7 +123,7 @@ The `text` language. Must be `auto` or one of the codes/names (not case sensitiv
 ##### to
 Type: `string` Default: `en`
 
-The language in which the text should be translated. Must be one of the codes/names (case sensitive!) contained in [languages.js](https://github.com/vitalets/google-translate-api/blob/master/languages.js).
+The language in which the text should be translated. Must be one of the codes/names (case sensitive!) contained in [languages.js](https://github.com/6ebeng/google-translate-api-rocket/blob/master/languages.js).
 
 ##### raw
 Type: `boolean` Default: `false`
@@ -150,7 +150,7 @@ The got options: https://github.com/sindresorhus/got#options
 - `from` *(object)*
   - `language` *(object)*
     - `didYouMean` *(boolean)* - `true` if the API suggest a correction in the source language
-    - `iso` *(string)* - The [code of the language](https://github.com/vitalets/google-translate-api/blob/master/languages.js) that the API has recognized in the `text`
+    - `iso` *(string)* - The [code of the language](https://github.com/6ebeng/google-translate-api-rocket/blob/master/languages.js) that the API has recognized in the `text`
   - `text` *(object)*
     - `autoCorrected` *(boolean)* – `true` if the API has auto corrected the `text`
     - `value` *(string)* – The auto corrected `text` or the `text` with suggested corrections
@@ -174,4 +174,4 @@ Otherwise, it will be an empty `string` (`''`).
 
 ## License
 
-MIT © [Matheus Fernandes](http://matheus.top), forked and maintained by [Vitaliy Potapov](https://github.com/vitalets).
+MIT © [Matheus Fernandes](http://matheus.top), forked and maintained by [Vitaliy Potapov](https://github.com/6ebeng).
