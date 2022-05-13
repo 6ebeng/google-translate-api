@@ -1,5 +1,5 @@
 {
-  "name": "@6ebeng/google-translate-api-plus",
+  "name": "@6ebeng/google-translate-api-rocket",
   "version": "8.0.1",
   "description": "A free and unlimited API for Google Translate",
   "main": "index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/6ebeng/google-translate-api-plus.git"
+    "url": "https://github.com/6ebeng/google-translate-api-rocket.git"
   },
   "keywords": [
     "translate",
@@ -36,9 +36,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/6ebeng/google-translate-api/issues"
+    "url": "https://github.com/6ebeng/google-translate-api-rocket/issues"
   },
-  "homepage": "https://github.com/6ebeng/google-translate-api#readme",
+  "homepage": "https://github.com/6ebeng/google-translate-api-rocket#readme",
   "dependencies": {
     "configstore": "^5.0.1",
     "got": "^9.6.0"
